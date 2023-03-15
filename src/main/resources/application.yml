@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    这里修改成自己的数据库
+    username: username
+    password: password
+    url: jdbc:mysql://localhost:3306/hot_news_db?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    type: com.alibaba.druid.pool.DruidDataSource
